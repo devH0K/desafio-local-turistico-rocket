@@ -1,0 +1,34 @@
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+main div img {
+  height: 375px;
+  object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+  margin-top: 44px;
+}
+
+img {
+  border-radius: 28px;  /* Adicionar o arredondamento da borda */
+  width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
+}
+
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #e1624f;
+  text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; /* Muda estilo da fonte para itálico */
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
