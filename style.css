@@ -1,8 +1,23 @@
-.divider {
-  width: 100%;
-  height: 1px;
-  margin: 36px 0;
-  background-color: #d9d9d9;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open-Sans", sans-serif;
+  font-style: normal;
+  background-color: #F5F4F0;
+}
+
+body {
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  margin: 88px auto 65px auto;
 }
 
 main div img {
@@ -16,12 +31,20 @@ img {
   width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
 .headline {
   font-size: 16px;
   line-height: 22px;
   font-weight: bold; /* a fonte fica em negrito */
   color: #e1624f;
   text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+  margin-bottom: 8px;
 }
 
 .subtitle {
@@ -31,4 +54,87 @@ img {
   text-align: center;
   color: #333333;
   margin-top: 24px;
+}
+
+.obs {
+  text-align: center;
+}
+
+#haedong {
+  margin-top: 64px;
+}
+
+#beomeo{
+  margin-top: 48px;
+}
+
+#yongdusan{
+  margin-top: 48px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+h1 h2 h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+ul {
+  margin-top: 24px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+#haedong li {
+  color: #0C51A7
+}
+
+#beomeo li {
+  color: #0C51A7
+}
+
+li + li + li {
+  color: #E95E10;
+}
+
+li + li {
+  color: #E5245E;
+}
+
+li {
+  color: #591B98
+}
+
+footer {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
 }
