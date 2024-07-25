@@ -1,5 +1,5 @@
-<h1 align="center"> Links </h1>
+<h1 align="center"> Local Turístico </h1>
 
 <p align="center">
-  <img alt="projeto receita rocket" src=".github/thumbnail-receita-rocket.png" width="100%">
+  <img alt="projeto receita rocket" src=".github/thumbnail-desafio-local-turistico-rocket.png" width="100%">
 </p>
